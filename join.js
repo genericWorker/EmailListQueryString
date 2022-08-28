@@ -4,7 +4,7 @@ const $ = function(id) {
     return document.getElementById(id);
 };
  
-// Get value of a queryString parameter using the parameter key
+// Get value of queryString parameter using the parameter key
 const getQueryStringParmValue = (parmKey) => {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
